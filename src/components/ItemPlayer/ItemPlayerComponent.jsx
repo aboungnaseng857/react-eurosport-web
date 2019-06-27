@@ -2,11 +2,6 @@ import React, { Component, } from 'react';
 import './ItemPlayer.css';
 
 class ItemPlayerComponent extends Component {
-	constructor(props) {
-		super(props);
-		console.info('salut ItemPlayerComponent !');
-	}
-
 	render() {
 		const { player, idItem } = this.props;
 		const weightKG = parseInt(player.data.weight, 10) / 1000;

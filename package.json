@@ -10,6 +10,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
+    "start:mac": "HTTPS=true react-scripts start",
+    "start:windows": "set HTTPS=true&&react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
